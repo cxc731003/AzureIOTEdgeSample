@@ -1,0 +1,15 @@
+{
+    "$schema-version": "1.0.1",
+    "description": "",
+    "image": {
+        "repository": "stevendemoacr.azurecr.cn/pythonfiltermodule",
+        "tag": {
+            "version": "0.0.1",
+            "platforms": {
+                "amd64": "./Dockerfile.amd64"
+            }
+        },
+        "buildOptions": []
+    },
+    "language": "python"
+}
